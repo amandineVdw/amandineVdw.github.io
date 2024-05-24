@@ -4,29 +4,46 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+.reem-kufi {
+    font-family: 'Reem Kufi', sans-serif;
+
+.roboto {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300; 
+
+
+	
+/* Responsive desing: Requête média = adapte la taille de la police en fonction de la taille de l'écran, dans ce ca ci Font-size*/	
+
+/*Téléphone mobile, tablette (petits appareils)*/
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
 	}
 }
 
+/*Tablette, petit ordinateur portable*/
 @media (min-width: 768px) {
 	html {
 		font-size: 16px;
 	}
 }
 
+/*Ecran de bureau, grand ordinateur portable*/	
 @media (min-width: 992px) {
 	html {
 		font-size: 18px;
 	}
 }
 
+/*Très grand écran de bureau*/
 @media (min-width: 1200px) {
 	html {
 		font-size: 20px;
 	}
 }
+
+	
 
 .icons-social i {
 	font-size: 3em;
